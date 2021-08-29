@@ -49,14 +49,3 @@ function myFunction() {
 
 
 }
-
-
-// console.log(anagramChecker('This is, the End', 'heisted hints....,.,.,./@£'));
-
-// console.log(anagramChecker('hello , This.* world', 'DOLL, hoeeWeler'));
-
-// console.log(anagramChecker('hello , This.* world', 'tickle me ballss'));
-
-// // DOLL, hoWler
-// // ,./hello world
-// // console.log("hello , This.* world".replace(/[.,\s/#!$%\^&\*;:{}=\-_`~()]/g, "").toLowerCase());
