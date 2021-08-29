@@ -1,0 +1,51 @@
+/* setting the layout with boxsizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+    /*  setting font-size to 10px rather than 16px; */
+    font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
+    }
+
+/* container defines the overall layout FROM 320PX WIDTH */
+.container {
+        height: 100vh;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+        // padding: 2rem ;
+        /* added for nav-toggle positioning */
+        // position: relative;
+    }
+
+    h1 {    
+    // display: block;
+    align-self: center;
+    width: 100%;
+    text-align: center;
+    padding: 5rem;
+    font-size: 3rem;
+    }
+    input {
+        width: 30rem;
+        height: 2.75rem;
+        border: .2px solid;
+        border-radius: 0.5rem;
+    }
+
+    .btn {
+        height: 2.75rem;
+        padding: 0 0.5rem;
+    }
+
+    #results {
+        padding: 1.75rem;
+        font-size: 1.75rem;
+    }
