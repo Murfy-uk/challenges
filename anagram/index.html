@@ -11,16 +11,18 @@
 
 <body>
     <div class="container">
+        <div class="hero">
 
-        <h1>Check if strings are anagrams of eachother punctuation and all</h1>
-        <div id="results">
+            <h1>Check if strings are anagrams of eachother punctuation and all</h1>
+            <div id="results">
 
+            </div>
+            <form id="myForm" onsubmit="event.preventDefault(); myFunction();">
+                <input type="text" name="string_1" id="string_1" placeholder="Kingfisher" required>
+                <input type="text" name="string_2" id="string_2" placeholder="frisking he" required>
+                <button class="btn" type="submit">Check them</button>
+            </form>
         </div>
-        <form id="myForm" onsubmit="event.preventDefault(); myFunction();">
-            <input type="text" name="string_1" id="string_1" placeholder="Kingfisher" required>
-            <input type="text" name="string_2" id="string_2" placeholder="frisking he" required>
-            <button class="btn" type="submit">Check them</button>
-        </form>
     </div>
     <script src="anagram.js"></script>
 </body>

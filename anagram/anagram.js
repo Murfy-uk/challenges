@@ -44,6 +44,10 @@ function myFunction() {
 
 
     const [result, msg] = anagramChecker(string1, string2);
+
+    if (result === true) {
+        console.log('yeah baby')
+    }
     document.getElementById('results').innerHTML = `result = ${result} > ${msg}`;
 
 
